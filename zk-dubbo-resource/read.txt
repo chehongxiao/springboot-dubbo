@@ -1,0 +1,2 @@
+D:\BaiduNetdiskDownload\dubbo-dubbo-2.6.0\dubbo-admin>mvn  package -Dmaven.skip.test=true
+生成dubbo-admin war

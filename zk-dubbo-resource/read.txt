@@ -1,4 +1,3 @@
 D:\BaiduNetdiskDownload\dubbo-dubbo-2.6.0\dubbo-admin>mvn  package -Dmaven.skip.test=true
 生成dubbo-admin war
-访问测试：
-http://localhost:8065/sayHello?content=123
+访问测试：http://localhost:8065/sayHello?content=123

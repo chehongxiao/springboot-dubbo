@@ -3,12 +3,11 @@ dubbo:
     name: dubbo-provider
   registry:
     address: 127.0.0.1:2181
-    # 读者请自行更改zookeeper地址
     protocol: zookeeper
     check: false
   protocol:
     name: dubbo
-    port: 30006
+    port: 30005
   monitor:
     protocol: register
   consumer:
@@ -16,4 +15,4 @@ dubbo:
     timeout: 3000
 
 server:
-  port: 8064
+  port: 8063

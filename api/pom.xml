@@ -44,6 +44,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--用这个插件打包的Jar包可以直接运行，但是不可依赖！！-->
+                <executions>
+                    <execution>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <classifier>execute</classifier>
+                </configuration>
             </plugin>
         </plugins>
     </build>
